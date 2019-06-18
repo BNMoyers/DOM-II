@@ -1,3 +1,4 @@
+Brittany Moyers
 # DOM II - Event Exploration
 
 Fun Bus wants you to make their site more interactive. They are relying on you to provide 10 unique events to enhance their site. Explore the many events available to you by using the [MDN events reference](https://developer.mozilla.org/en-US/docs/Web/Events).
@@ -6,10 +7,10 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 
 **Follow these steps to set up and work on your project:**
 
-* [ ] Create a forked copy of this project.
+* [X] Create a forked copy of this project.
 * [ ] Add your project manager as collaborator on Github.
-* [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-* [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+* [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+* [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 * [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 * [ ] Push commits: git push origin `<firstName-lastName>`.
 
@@ -21,15 +22,15 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 
 ## Task 1: Set Up LESS Preprocessor
 
-* [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
+* [X] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
 
-* [ ] Open your terminal and navigate to your preprocessing project by using the `cd` command
+~~* [ ] Open your terminal and navigate to your preprocessing project by using the cd command~~ Using provided solution files instead.
 
-* [ ] Once in your project's root folder, run the following command `less-watch-compiler less css index.less`
+* [x] Once in your project's root folder, run the following command `less-watch-compiler less css index.less`
 
-* [ ] Verify your compiler is working correctly by changing the `background-color` on the `html` selector to `red` in your `index.less` file.
+* [x] Verify your compiler is working correctly by changing the `background-color` on the `html` selector to `red` in your `index.less` file.
 
-* [ ] Once you see the red screen, you can delete that style and you're ready to start on the next task
+* [x] Once you see the red screen, you can delete that style and you're ready to start on the next task
 
 ## Task 2: Create Unique Event Listeners
 
