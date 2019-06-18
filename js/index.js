@@ -33,8 +33,12 @@ dragBox.addEventListener('dragstart', event => {
 return alert("Hey...where are you going with that?!")
 })
 
-//5. `load`
-
+//5. `mousedown`
+/*prevent copying*/
+const stopIt = document.querySelectorAll('img');
+stopIt.forEach(image => image.addEventListener('mousedown', event => {
+    return alert("These aren't the images you're looking for")
+}))
 
 
 //6. `focus`
