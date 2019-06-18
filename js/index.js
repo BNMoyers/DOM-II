@@ -60,3 +60,8 @@ navStop.forEach(link => link.addEventListener('click', event =>
 
 
 //10. `dblclick`
+/*hide content when double clicked*/
+const goAway = document.querySelector('.content-section');
+goAway.addEventListener('dblclick', event => {
+    event.target.style.visibility = "hidden"
+})
