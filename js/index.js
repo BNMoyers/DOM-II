@@ -11,6 +11,12 @@ wholePage.addEventListener('keydown', event=> {
 })
 //3. `wheel`
 
+/*change header background color to match footer*/
+const wheelie = document.querySelector('.main-navigation');
+console.log(wheelie);
+wheelie.addEventListener('wheel', (event) => 
+{ event.target.style.backgroundColor = '#FFEBCD';
+});
 
 
 //4. `drag / drop`
