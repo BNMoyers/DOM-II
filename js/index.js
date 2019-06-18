@@ -27,7 +27,7 @@ wheelie.addEventListener('wheel', event =>
 
 
 //4. `drag / drop`
-/*add textbox after dropping element*/
+/*add textbox when dragging element*/
 const dragBox = document.querySelector('body');
 dragBox.addEventListener('dragstart', event => {
 return alert("Hey...where are you going with that?!")
@@ -47,9 +47,12 @@ return alert("Hey...where are you going with that?!")
 //8. `scroll`
 
 
-
-//9. `select`
-
+//9. `click`
+/* prevent page from reloading when selecting nav link*/
+const navStop = document.querySelectorAll('nav a');
+navStop.forEach(link => link.addEventListener('click', event => 
+{ event.preventDefault();
+}))
 
 
 //10. `dblclick`
