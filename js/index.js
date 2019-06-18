@@ -33,22 +33,33 @@ dragBox.addEventListener('dragstart', event => {
 return alert("Hey...where are you going with that?!")
 })
 
-//5. `mousedown`
+//5. `contextmenu`
 /*prevent copying*/
 const stopIt = document.querySelectorAll('img');
-stopIt.forEach(image => image.addEventListener('mousedown', event => {
+stopIt.forEach(image => image.addEventListener('contextmenu', event => {
     return alert("These aren't the images you're looking for")
 }))
 
 
-//6. `focus`
+//6. `load`
+window.addEventListener('load', event => {
+    return alert("Welcome!")
+})
 
 
-//7. `resize`
+//7. `mouseup`
+const outOfIdeas = document.querySelector('.intro');
+outOfIdeas.addEventListener('mouseup', event => {
+    return alert("That tickles")
+})
 
 
 
-//8. `scroll`
+//8. `mousedown`
+const lastOne = document.querySelector('.footer');
+lastOne.addEventListener('mousedown', event => 
+{ event.target.style.backgroundColor = '#17A2B8';
+});
 
 
 //9. `click`
