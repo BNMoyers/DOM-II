@@ -1,7 +1,15 @@
 // Your code goes here
 
 //1. `mouseover`
-/* animate header image*/
+/* nav link hover effect*/
+const navHover = document.querySelectorAll('nav a');
+navHover.forEach(link => link.addEventListener('mouseenter', (event) => 
+{ event.target.style.color = '#17A2B8';
+}))
+navHover.forEach(link => link.addEventListener('mouseout', (event) => 
+{ event.target.style.color = '#212529';
+}))
+
 
 //2 .`keydown`
 /*offer help*/
@@ -20,7 +28,7 @@ wheelie.addEventListener('wheel', (event) =>
 
 
 //4. `drag / drop`
-
+/*add textbox after dropping element*/
 
 
 //5. `load`
